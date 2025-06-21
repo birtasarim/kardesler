@@ -1,0 +1,407 @@
+﻿
+@media screen and (max-width: 1200px)
+{
+    .container_1200
+    {
+        width: 94%;
+        margin: 0 3%;
+    }
+
+    .header h1.logo
+    {
+        width: 100%;
+        margin: 5px 0;
+        height: 70px;
+    }
+    .header .logo img
+    {
+        width: 100%;
+        margin: 0;
+        height: 70px;
+    }
+    .header .menu
+    {
+        width: 100%;
+        padding: 0;
+        float: left;
+        padding-bottom: 8px;
+        padding-top: 9px;
+        border-bottom: 1px solid #fff;
+        border-top: 1px solid #fff;
+    }
+    .header .menu ul
+    {
+        margin: 0px;
+        float: none;
+        text-align: center;
+    }
+    .header .menu ul li
+    {
+        float: none;
+        margin: 0 5px;
+        display: inline;
+    }
+    .header .menu ul li a
+    {
+        display: inline;
+        float: none;
+        padding: 10px 8px 10px 8px;
+    }
+
+    .header .top_fix ul
+    {
+        float: right;
+        text-align: center;
+    }
+    .header .top_fix ul li
+    {
+        float: none;
+    }
+    .header .top_fix ul li img
+    {
+        float: none;
+    }
+    .header .top_fix ul li.weather
+    {
+        display: none;
+    }
+
+
+
+
+    .header h1.logo3
+    {
+        width: 100%;
+        margin: 5px 0;
+        height: 70px;
+    }
+    .header .logo3 img
+    {
+        width: 100%;
+        margin: 0;
+        height: 70px;
+    }
+    .header .menu2
+    {
+        width: 100%;
+        padding: 0;
+        float: left;
+        padding-bottom: 8px;
+        padding-top: 9px;
+        border-bottom: 1px solid #fff;
+        border-top: 1px solid #fff;
+    }
+    .header .menu2 ul
+    {
+        margin: 0px;
+        float: none;
+        text-align: center;
+    }
+    .header .menu2 ul li
+    {
+        float: none;
+        margin: 0 5px;
+        display: inline;
+    }
+    .header .menu2 ul li a
+    {
+        display: inline;
+        float: none;
+        padding: 10px 8px 10px 8px;
+    }
+
+    .header .top_fix2 ul
+    {
+        float: right;
+        text-align: center;
+    }
+    .header .top_fix2 ul li
+    {
+        float: none;
+    }
+    .header .top_fix2 ul li img
+    {
+        float: none;
+    }
+    .header .top_fix2 ul li.weather
+    {
+        display: none;
+    }
+
+
+
+
+    .header .slider
+    {
+        margin-top: -154px;
+    }
+
+    #vitrin_carousel .owl-prev
+    {
+        left: -45px;
+    }
+    #vitrin_carousel .owl-next
+    {
+        right: -45px;
+    }
+    .hide_1200
+    {
+        display: none;
+    }
+    .show_1200
+    {
+        display: block;
+    }
+    .footer_bottom ul.social li
+    {
+        float: right;
+    }
+    .footer_bottom .logo img
+    {
+        margin-bottom: 15px;
+    }
+
+}
+@media screen and (max-width: 1000px)
+{
+    .photos img
+    {
+        width: 23%;
+    }
+}
+@media screen and (max-width: 992px)
+{
+    .footer_bottom, .footer_bottom h4, .footer_bottom ul
+    {
+        text-align: center;
+    }
+    .footer_bottom h4
+    {
+        margin-top: 25px;
+    }
+
+    .footer_bottom ul.social li
+    {
+        float: none;
+        display: inline;
+    }
+    .iletisim input[type=text]
+    {
+        margin: 2%;
+        float: left;
+        width: 100%;
+        padding: 2%;
+    }
+    .iletisim textarea
+    {
+        margin: 2%;
+        min-height: 200px;
+        padding: 2%;
+    }
+    .iletisim input[type=submit]
+    {
+        margin: 2%;
+        float: left;
+        width: 100%;
+        padding: 2%;
+    }
+
+
+}
+@media screen and (max-width: 960px)
+{
+
+    .btn-toogle-res-menu
+    {
+        display: block;
+    }
+    .mp-menu
+    {
+        display: block;
+    }
+    .menu, .menu2, .header .top_fix2
+    {
+        display: none;
+    }
+    .blog .col-md-9 .col-md-3
+    {
+        width: 50%;
+        float: left;
+        height: 215px;
+        overflow: hidden;
+    }
+    .blog
+    {
+        text-align: center;
+    }
+    .blog .col-md-12
+    {
+        margin-bottom: 20px;
+    }
+    ul.guests
+    {
+        margin-top: 20px;
+    }
+    .footer_bottom ul.social
+    {
+        display: inline-block;
+        margin-top: 20px;
+    }
+    .header .top_fix
+    {
+        display: none;
+    }
+    .header h1.logo
+    {
+        width: 230px;
+        height: 96px;
+    }
+    .header h1.logo3
+    {
+        width: 230px;
+        height: 96px;
+    }
+    .header .pattern
+    {
+        height: 605px;
+    }
+    .header .upper2
+    {
+        position: relative;
+    }
+    .top_space
+    {
+        margin-top: 0;
+    }
+    .top_space h1, .article h2
+    {
+        text-align: center;
+    }
+    .top_space .sidebar
+    {
+        display: none;
+    }
+    .top_space .yorum_yaz
+    {
+  display: block;
+  width: 94%;
+  float: left;
+  border: 0;
+    }
+    .top_space .article
+    {
+        width: 100%;
+    }
+    .rotalar .item
+    {
+        width: 48%;
+    }
+    .blog .item
+{
+    width: 98%;
+}
+.blog .item p, .blog .item h3
+{
+    text-align:left;
+    }
+}
+@media screen and (max-width: 850px)
+{
+}
+@media screen and (max-width: 768px)
+{
+    .photos img
+    {
+        width: 31%;
+    }
+
+}
+
+@media screen and (max-width: 640px)
+{
+    .blog .item
+{
+    width: 98%;
+    margin: 1%;
+    max-height:inherit;
+}
+
+.blog .item img
+{
+    width: 92%;
+    margin: 4%;
+}
+.blog .item h3
+{
+    text-align: center;
+    width: 100%;
+    font-size: 25px;
+}
+.blog .item p
+{
+    text-align: center;
+    width: 100%;
+}
+
+    .photos img
+    {
+        width: 48%;
+        height: 100px;
+    }
+
+}
+@media screen and (max-width: 480px)
+{
+    .rotalar .item
+    {
+        width: 98%;
+    }
+
+    .blog .col-md-9 .col-md-3
+    {
+        width: 100%;
+    }
+    .footer .reviews h2, .photos h1, .tours h1
+    {
+        font-size: 30px;
+    }
+    .footer a.link
+    {
+        text-align: center;
+        width: 100%;
+    }
+    .btn-toogle-res-menu
+    {
+        width: 85px;
+        height: 50px;
+    }
+    .btn-toogle-res-menu span
+    {
+        margin-top: 25px;
+    }
+    .header h1.logo
+    {
+        width: 160px;
+        height: 65px;
+    }
+    .header h1.logo3
+    {
+        width: 160px;
+        height: 65px;
+    }
+    .header .pattern
+    {
+        height: 574px;
+    }
+}
+@media screen and (max-width: 400px)
+{
+    .footer_bottom ul.social li
+    {
+        margin: 2% 0;
+    }
+
+}
+@media screen and (max-width: 320px)
+{
+}

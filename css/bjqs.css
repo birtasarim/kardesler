@@ -1,0 +1,131 @@
+/* Basic jQuery Slider essential styles */
+
+ul.bjqs
+{
+    position: relative;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    display: none;
+}
+ul.bjqs li img
+{
+    background-size:cover;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    background-position:left;
+}
+li.bjqs-slide
+{
+    position: absolute;
+    display: none;
+}
+ul.bjqs-controls
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    z-index: 9999;
+}
+ul.bjqs-controls.v-centered li a
+{
+    position: absolute;
+}
+ul.bjqs-controls.v-centered li.bjqs-next a
+{
+    right: 40px;
+    background-image:url('../images/arrows.png');
+    width:40px;
+    height:40px;
+    background-position:40px 0px;
+}
+ul.bjqs-controls.v-centered li.bjqs-prev a
+{
+    left: 40px;
+     background-image:url('../images/arrows.png');
+    width:40px;
+    height:40px;
+    background-position:80px 0px;
+}
+ol.bjqs-markers
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top:10px;
+    width: 100%;
+    background-image:url('../images/slider_btn_bg.html');
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+ol.bjqs-markers.h-centered
+{
+    text-align: center;
+}
+ol.bjqs-markers li
+{
+    display: inline;
+}
+ol.bjqs-markers li a
+{
+    display: inline-block;
+}
+p.bjqs-caption
+{
+    display: block;
+    margin: 0;
+    padding: 2%;
+    position: absolute;
+    bottom: 0;
+font-size: 40px;
+color: #fff;
+top: 215px;font-family: 'Roboto Condensed';
+font-weight: bold;
+right: 5%;
+text-shadow: 0px 0px 10px #333;
+-webkit-text-shadow: 0px 0px 10px #333;
+-moz-text-shadow: 0px 0px 10px #333;
+}
+
+#banner-fade
+{
+    z-index: -1;
+}
+ul.bjqs-controls.v-centered li a
+{
+    display: block;
+    opacity:0.7;
+}
+
+ul.bjqs-controls.v-centered li a:hover
+{
+    opacity:1;
+}
+
+ol.bjqs-markers li a
+{
+background-image:url('../images/slider_a.html');
+width:17px;
+height:17px;
+color:transparent;
+margin:10px;
+}
+
+ol.bjqs-markers li.active-marker a, ol.bjqs-markers li a:hover
+{
+background-image:url('../images/slider_b.html');
+}
+
+@media screen and (max-width: 1100px)
+{
+ul.bjqs-controls.v-centered li.bjqs-next a
+{
+    right: 10px;
+}
+ul.bjqs-controls.v-centered li.bjqs-prev a
+{
+    left: 10px;
+}
+}
